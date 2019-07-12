@@ -1,0 +1,77 @@
+{
+  "uid" : "35da407e8a07753b",
+  "name" : "TestLogin1.test_login[1234-12340]",
+  "fullName" : "test_ak_login.TestLogin1.test_login[1234-12340]",
+  "historyId" : "c7cd5007338ba7785a4d550fcbde79b9",
+  "time" : {
+    "start" : 1562664302256,
+    "stop" : 1562664325457,
+    "duration" : 23201
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3dd20d2d09e5dedf",
+      "name" : "失败截图",
+      "source" : "3dd20d2d09e5dedf.png",
+      "type" : "image/png",
+      "size" : 641438
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "liucongdeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "13882-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_ak_login"
+  }, {
+    "name" : "testClass",
+    "value" : "test_ak_login"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestLogin1.test_login[1234-12340]"
+  }, {
+    "name" : "package",
+    "value" : "test_ak_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "35da407e8a07753b.json",
+  "parameterValues" : [ ]
+}

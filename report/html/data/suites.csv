@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jul 09 17:25:39 CST 2019","Tue Jul 09 17:26:01 CST 2019","21608","","test_ak_login","","test_ak_login","TestLogin1.test_login[1234-12341]","TestLogin1.test_login[1234-12341]",""
+"passed","Tue Jul 09 17:25:02 CST 2019","Tue Jul 09 17:25:25 CST 2019","23201","","test_ak_login","","test_ak_login","TestLogin1.test_login[1234-12340]","TestLogin1.test_login[1234-12340]",""

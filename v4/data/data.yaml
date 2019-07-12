@@ -1,0 +1,11 @@
+#[{"name":},{"name": })]
+#- name: '123123' password: "123124"
+#- name: '123123' password: "123124"
+#登录数据1
+ak_longin001:
+  name: "18301225040"
+  pasword: "1234ssdf"
+#登录数据2
+ak_longin002:
+  name: "17311392672"
+  pasword: "98888"
