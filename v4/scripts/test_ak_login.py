@@ -41,4 +41,5 @@ class TestLogin1(object):
         # allure.attach("描述","hello")
         self.page_login.login_proxy(username, password)
         with open("./v4/image/1.png", 'rb')as f:
+            print("测试代码")
             allure.attach("失败截图", f.read(), allure.attach_type.PNG)
