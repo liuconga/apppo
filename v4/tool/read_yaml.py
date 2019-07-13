@@ -4,6 +4,7 @@ import yaml
 def read_yaml():
     #通过pytest运行这么写路径
     with open("./v4/data/data.yaml") as f:
+    # with open("../data/data.yaml") as f:
         return yaml.load(f)
     # 通过右键运行这么写路径
     # with open("../data/data.yaml") as f:
