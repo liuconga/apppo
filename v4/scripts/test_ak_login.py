@@ -35,8 +35,8 @@ class TestLogin1(object):
 
     # 使用pytest参数化
     # @allure.step(title='正在执行登录操作。。。。')
-    # @pytest.mark.parametrize("username,password", get_data())
-    def test_login(self, username=123, password=23123):
+    @pytest.mark.parametrize("username,password", get_data())
+    def test_login(self, username, password):
         #添加秒速啦
         # allure.attach("描述","hello")
         self.page_login.login_proxy(username, password)
