@@ -16,8 +16,9 @@ class DriverUtil(object):
             desired['platformVerison'] = '5.1'
             # Android中可以填错，但不可以为空
             desired['deviceName'] = '192.168.56.102:5555'
-            # 启动时直接安装apk可以忽略下边两个包名启动名
-            # desired['app'] = 'C:\\AK_CRM.apk'
+            #为了获取toast添加uiautomator2的库
+            desired['automationName'] = 'Uiautomator2'
+
             # app包名
             desired['appPackage'] = 'com.vcooline.aike'
             # app启动名

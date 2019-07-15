@@ -2,6 +2,7 @@
 模块名为page开头+下划线+测试模块 如page_login
 page类名：根据模块名更改而来，page_login变为大驼峰PageLogin
 """
+import time
 
 from v4 import page
 from v4.base.base_page import BasePage
@@ -31,3 +32,5 @@ class PageLogin(BasePage):
         self.input_username(username)
         self.input_password(password)
         self.click_login()
+        time.sleep(2)
+

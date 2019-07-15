@@ -37,9 +37,10 @@ class TestLogin1(object):
     # @allure.step(title='正在执行登录操作。。。。')
     @pytest.mark.parametrize("username,password", get_data())
     def test_login(self, username, password):
-        #添加秒速啦
+        #添加描述
         # allure.attach("描述","hello")
         self.page_login.login_proxy(username, password)
         with open("./v4/image/1.png", 'rb')as f:
             print("测试代码")
             allure.attach("失败截图", f.read(), allure.attach_type.PNG)
+        # print(self.page_login.base_get_toast_msg('号！'))

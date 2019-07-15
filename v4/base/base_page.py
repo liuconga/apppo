@@ -1,4 +1,5 @@
 from appium import webdriver
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
 
@@ -19,3 +20,8 @@ class BasePage(object):
     # 抽取点击操作方法
     def click_element(self, loc):
         self.find_el(loc).click()
+
+    # 获取toast消息方法封装
+    def base_get_toast_msg(self, msg):
+        loc = By.XPATH, '//*[contains(@text,”{}”)]'.format(msg)
+        return self.find_el(loc, poll=0.2).text
